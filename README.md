@@ -5,7 +5,7 @@ The implementation is for non-commercial use only.
 
 ## Requirements
 
-1. Python 3.6.12 
+1. python 3.6.12 
 2. torch 1.6.0
 3. torchvision 0.7.0
 4. cuda 10.1
