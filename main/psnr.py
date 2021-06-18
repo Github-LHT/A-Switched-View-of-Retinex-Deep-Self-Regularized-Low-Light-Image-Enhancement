@@ -25,8 +25,10 @@ def calc_averger_psnr(pred_Path):
     for file_name in file_list:
         test_list = glob.glob(pred_Path + file_name)
         for pred in test_list:
-            # file_name_name = file_name[2:] # work at test status
+            # file_name = file_name[2:] # work at test status
+            # gt = "./data/SICE_test/normal/" + file_name
             gt = "./data/SICE_val/normal/" + file_name
+      
 
             pred_img = cv2.imread(pred)
             gt_img = cv2.imread(gt)
